@@ -22,7 +22,7 @@ class Index extends React.Component {
           }}
         />
         <ResourcePicker
-          resourceType="Product"
+          resourceType="Collection"
           showVariants={false}
           open={this.state.open}
           onSelection={(resources) => this.handleSelection(resources)}
